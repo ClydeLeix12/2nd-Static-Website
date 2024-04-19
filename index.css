@@ -217,6 +217,8 @@ li .Login {
     padding-top:100px ;
     padding-bottom:100px ;
     font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
 
 }
 
@@ -230,17 +232,17 @@ li .Login {
 }
 
 .features {
-    display: flex;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     box-sizing: border-box; 
 }
 
 .feat-head {
     display: flex;
+    flex-direction: column; 
+    align-items: center;
     color: #79589F;
     padding: 10px;
     font-family:Arial, Helvetica, sans-serif;
-    justify-content: center;
     padding-top: 20px;
 
 }
@@ -255,10 +257,50 @@ button.learn-more {
     cursor: pointer;
     font-size: 16px;
     margin-left: 625px;
-
+    margin-bottom: 20px;
 }
 
 .learn-more:hover {
     background-color: #e64a19;
 }
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:150px;
+    margin-bottom: 20px;
+    color: #79589F;
+}
+
+.pers-col li{
+    font-size: small;
+    padding: 20px;
+    width: 400px;
+    list-style-image: url(icons/png/bxl-codepen.png);
+}
+
+.lawa-col li{
+
+    font-size: small;
+    padding: 20px;
+    width: 400PX;
+    list-style-image: url(icons/png/bxs-planet.png);
+}
+
+.tat-col li{
+
+    font-size: small;
+    padding: 20px;
+    width: 400PX;
+    list-style-image: url(icons/png/bxl-unsplash.png);
+    
+}
+
+.feature-list li p {
+    color: black;
+}
+/* ul.lawa-col {
+    list-style-image: url(icons/png/bxl-codepen.png);
+} */
+
 
