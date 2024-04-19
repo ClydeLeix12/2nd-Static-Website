@@ -249,7 +249,7 @@ li .Login {
 
 
 button.learn-more {
-    background-color: #0074d9;
+    background-color: purple;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -267,13 +267,13 @@ button.learn-more {
 .feature-list {
     display: flex;
     flex-wrap: wrap;
-    margin-left:150px;
+    margin-left:170px;
     margin-bottom: 20px;
     color: #79589F;
 }
 
 .pers-col li{
-    font-size: small;
+    font-size: 14PX;
     padding: 20px;
     width: 400px;
     list-style-image: url(icons/png/bxl-codepen.png);
@@ -281,7 +281,7 @@ button.learn-more {
 
 .lawa-col li{
 
-    font-size: small;
+    font-size: 14PX;
     padding: 20px;
     width: 400PX;
     list-style-image: url(icons/png/bxs-planet.png);
@@ -289,7 +289,7 @@ button.learn-more {
 
 .tat-col li{
 
-    font-size: small;
+    font-size: 14PX;
     padding: 20px;
     width: 400PX;
     list-style-image: url(icons/png/bxl-unsplash.png);
@@ -316,6 +316,7 @@ button.learn-more {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 .footer-logo img {
